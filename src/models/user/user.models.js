@@ -35,10 +35,6 @@ const userSchema = new mongoose.Schema(
       enum: ["admin", "supper-admin", "user"],
       default: "user",
     },
-    password: {
-      type: String,
-      required: [true, "Password is required"],
-    },
     refreshToken: {
       type: String,
     },

@@ -1,1 +1,1 @@
-export const DB_NAME = "smg";
+export const DB_NAME = "ORG";
