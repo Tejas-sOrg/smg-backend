@@ -26,8 +26,6 @@ jobs:
           build-mode: none
         - language: javascript-typescript
           build-mode: none
-        - language: python
-          build-mode: none
         # Add more languages if needed: c-cpp, java-kotlin, go, ruby, etc.
 
     steps:
